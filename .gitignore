@@ -1,1 +1,9 @@
 *.out
+*.o
+*.nfs00000000140d1634000245e9
+*.swo
+*.swp
+*.old
+*.tmp
+*.bak
+*.exe
