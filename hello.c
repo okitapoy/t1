@@ -2,16 +2,17 @@
 
 int main(int argc, char **argv){
 
+   int nbrArgs = argc - 1;
 
+   if(nbrArgs != 1){
 
-     printf("%d\n",argc);
+   printf("Erreur : Un seul argument permis\n");
 
+   }else{
 
-    int i =1;
-    for(i;i < argc;i++){
-      printf("%s\n",argv[i]);
+   printf("Hello %s!\n ",argv[1]);
 
-    }
+   }
 
 
     return 0;
