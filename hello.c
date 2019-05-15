@@ -1,5 +1,22 @@
 #include <stdio.h>
 
+void  boucleAvant(int borne){
+   int i = 0;
+   for(i ; i < borne; ++i){
+   printf("%d\n",i);
+   }
+}
+
+void  boucleApres(int borne){
+   int i = 0;
+   for(i ; i < borne; i++){
+   printf("%d\n",i);
+   }
+
+}
+
+
+
 int main(int argc, char **argv){
 
    int nbrArgs = argc - 1;
@@ -10,10 +27,12 @@ int main(int argc, char **argv){
 
    }else{
 
-   printf("Hello %s!\n ",argv[1]);
+   printf("Hello %s!\n ca va bien %s\n ",argv[1], argv[1]);
 
    }
 
+
+   boucleApres(5);
 
     return 0;
 
